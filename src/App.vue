@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><router-link to="/">Home</router-link></a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><router-link to="/list">Link</router-link></a>
+          <a class="nav-link" href="/list">List</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,9 +38,12 @@
 </nav>
 
 <div class="container mt-4">
-  <router-link to="/">홈페이지</router-link>
-  <router-link to="/list">리스트</router-link>
-  <router-view :blog="blog"></router-view>
+  <!-- <router-link to="/">홈페이지</router-link>
+  <router-link to="/list">리스트</router-link> -->
+
+  <div class="mt-4">
+    <router-view :blog="blog"></router-view>
+  </div>
 </div>
 
 </template>
