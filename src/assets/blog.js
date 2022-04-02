@@ -5,17 +5,20 @@ export default [
     date : 'September 24, 2021',
     number : 0,
     author : '부동산 다팔아',
+    authorContent : '이 사람은 부동산의 고수이다.',
   },{ 
     title : '둘 째 프로젝트 : 오마카세 배달 앱',
     content : '음식이 아니라 셰프를 직접 배달해드립니다',
     date : 'October 20, 2020',
     number : 1,
     author : '마카세 오',
+    authorContent : '이 사람은 요리 고수이다.',
   },{ 
     title : '셋 째 프로젝트 : 현피 앱',
     content : '거리를 설정하면 가장 가까운 파이터를 소개해드려요! 서로 싸워보세요',
     date : 'April 24, 2019',
     number : 2,
     author : '싸움의 고수',
+    authorContent : '이 사람은 싸움의 고수이다.',
   }
 ]
